@@ -2,7 +2,7 @@ pipeline {
   agent any
   environment {
     
-    IMAGE_NAME = 'tyoo99/jenkins-database-app'
+    IMAGE_NAME = 'ihtadahaqi/jenkins-database-app'
     REGISTRY_CREDENTIALS = 'dockerhub-credentials'
   }
   stages {
